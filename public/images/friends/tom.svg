@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160" width="160" height="160">
+  <!-- Classic MySpace Tom style -->
+  <rect width="160" height="160" fill="#E8ECEF"/>
+  <rect x="0" y="0" width="160" height="160" fill="#000" opacity="0.05"/>
+  <!-- Whiteboard in background -->
+  <rect x="10" y="10" width="140" height="80" fill="#FFFFFF" stroke="#CCCCCC"/>
+  <path d="M20,30 Q40,25 60,35" stroke="#4B6E94" stroke-width="2" fill="none"/>
+  <!-- Tom head and smile turned over shoulder -->
+  <circle cx="85" cy="70" r="32" fill="#FAD1B8"/>
+  <!-- Brown short hair -->
+  <path d="M60,65 C60,40 110,40 110,65 C110,55 60,55 60,65 Z" fill="#4A3423"/>
+  <!-- Smile & eyes -->
+  <circle cx="80" cy="70" r="3" fill="#2B1D12"/>
+  <circle cx="95" cy="70" r="3" fill="#2B1D12"/>
+  <path d="M80,82 Q88,92 96,82" stroke="#AA4444" stroke-width="2" fill="none"/>
+  <!-- White t-shirt and shoulder turned -->
+  <path d="M40,160 C40,115 65,102 85,102 C105,102 135,115 140,160 Z" fill="#FFFFFF" stroke="#D0D0D0"/>
+  <text x="80" y="152" font-family="Arial" font-size="10" font-weight="bold" fill="#003399" text-anchor="middle">Tom :-)</text>
+  <rect x="1" y="1" width="158" height="158" fill="none" stroke="#FF3DAE" stroke-width="2"/>
+</svg>

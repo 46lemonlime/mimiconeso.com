@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160" width="160" height="160">
+  <rect width="160" height="160" fill="#FFB7D5"/>
+  <!-- Nyan Synth Kitten -->
+  <circle cx="80" cy="85" r="40" fill="#FFFFFF" stroke="#FF3DAE" stroke-width="3"/>
+  <!-- Cat ears -->
+  <polygon points="45,65 40,30 70,52" fill="#FFFFFF" stroke="#FF3DAE" stroke-width="2"/>
+  <polygon points="50,60 48,38 65,52" fill="#FFB7D5"/>
+  <polygon points="115,65 120,30 90,52" fill="#FFFFFF" stroke="#FF3DAE" stroke-width="2"/>
+  <polygon points="110,60 112,38 95,52" fill="#FFB7D5"/>
+  <!-- Eyes -->
+  <ellipse cx="68" cy="80" rx="4" ry="7" fill="#14111E"/>
+  <ellipse cx="92" cy="80" rx="4" ry="7" fill="#14111E"/>
+  <circle cx="66" cy="78" r="1.5" fill="#FFFFFF"/>
+  <circle cx="90" cy="78" r="1.5" fill="#FFFFFF"/>
+  <!-- Whiskers -->
+  <line x1="45" y1="84" x2="30" y2="82" stroke="#FF3DAE" stroke-width="1.5"/>
+  <line x1="45" y1="88" x2="30" y2="92" stroke="#FF3DAE" stroke-width="1.5"/>
+  <line x1="115" y1="84" x2="130" y2="82" stroke="#FF3DAE" stroke-width="1.5"/>
+  <line x1="115" y1="88" x2="130" y2="92" stroke="#FF3DAE" stroke-width="1.5"/>
+  <!-- Music note -->
+  <text x="75" y="145" font-family="monospace" font-size="12" font-weight="bold" fill="#A46BFF">♪ EUROBEAT</text>
+  <rect x="1" y="1" width="158" height="158" fill="none" stroke="#FF3DAE" stroke-width="2"/>
+</svg>

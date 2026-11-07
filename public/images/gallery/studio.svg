@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" width="500" height="500">
+  <!-- Studio Bedroom setup -->
+  <rect width="500" height="500" fill="#140D1E"/>
+  <!-- Glowing CRT PC monitor -->
+  <rect x="130" y="80" width="240" height="190" rx="12" fill="#E2DDD5" stroke="#ADA79B" stroke-width="4"/>
+  <rect x="150" y="98" width="200" height="150" rx="8" fill="#0C1B26"/>
+  <!-- Screen showing DAW (FL Studio 7) patterns -->
+  <g fill="#B7FF67" opacity="0.8">
+    <rect x="160" y="110" width="180" height="15" fill="#1B2F3D"/>
+    <text x="165" y="122" font-family="monospace" font-size="9" fill="#62E9FF">FL Studio 7 - [cybernetic_v2.flp]</text>
+    <rect x="160" y="132" width="25" height="8"/>
+    <rect x="190" y="132" width="25" height="8"/>
+    <rect x="220" y="132" width="25" height="8"/>
+    <rect x="250" y="132" width="25" height="8"/>
+    <rect x="160" y="145" width="15" height="8" fill="#FF3DAE"/>
+    <rect x="200" y="145" width="15" height="8" fill="#FF3DAE"/>
+    <rect x="240" y="145" width="15" height="8" fill="#FF3DAE"/>
+  </g>
+  <!-- Roland JP-8000 Synthesizer on desk -->
+  <rect x="60" y="300" width="380" height="110" rx="4" fill="#1A2D3C" stroke="#2E506B" stroke-width="3"/>
+  <!-- Synth Keys -->
+  <g fill="#EDE9F2" stroke="#1A2D3C">
+    <rect x="80" y="345" width="14" height="60"/>
+    <rect x="94" y="345" width="14" height="60"/>
+    <rect x="108" y="345" width="14" height="60"/>
+    <rect x="122" y="345" width="14" height="60"/>
+    <rect x="136" y="345" width="14" height="60"/>
+    <rect x="150" y="345" width="14" height="60"/>
+    <rect x="164" y="345" width="14" height="60"/>
+    <rect x="178" y="345" width="14" height="60"/>
+    <rect x="192" y="345" width="14" height="60"/>
+    <rect x="206" y="345" width="14" height="60"/>
+    <rect x="220" y="345" width="14" height="60"/>
+    <rect x="234" y="345" width="14" height="60"/>
+    <rect x="248" y="345" width="14" height="60"/>
+    <rect x="262" y="345" width="14" height="60"/>
+    <rect x="276" y="345" width="14" height="60"/>
+    <rect x="290" y="345" width="14" height="60"/>
+    <rect x="304" y="345" width="14" height="60"/>
+    <rect x="318" y="345" width="14" height="60"/>
+    <rect x="332" y="345" width="14" height="60"/>
+    <rect x="346" y="345" width="14" height="60"/>
+    <rect x="360" y="345" width="14" height="60"/>
+    <rect x="374" y="345" width="14" height="60"/>
+    <rect x="388" y="345" width="14" height="60"/>
+    <rect x="402" y="345" width="14" height="60"/>
+  </g>
+  <!-- Synth Black Keys -->
+  <g fill="#090E13">
+    <rect x="89" y="345" width="9" height="38"/>
+    <rect x="103" y="345" width="9" height="38"/>
+    <rect x="131" y="345" width="9" height="38"/>
+    <rect x="145" y="345" width="9" height="38"/>
+    <rect x="159" y="345" width="9" height="38"/>
+    <rect x="187" y="345" width="9" height="38"/>
+    <rect x="201" y="345" width="9" height="38"/>
+    <rect x="229" y="345" width="9" height="38"/>
+    <rect x="243" y="345" width="9" height="38"/>
+    <rect x="257" y="345" width="9" height="38"/>
+  </g>
+  <!-- Synth control sliders & knobs -->
+  <g fill="#FF3DAE">
+    <circle cx="90" cy="320" r="5"/>
+    <circle cx="110" cy="320" r="5"/>
+    <circle cx="130" cy="320" r="5"/>
+    <rect x="160" y="312" width="4" height="18" fill="#62E9FF"/>
+    <rect x="180" y="312" width="4" height="18" fill="#62E9FF"/>
+    <rect x="200" y="312" width="4" height="18" fill="#62E9FF"/>
+  </g>
+  <!-- Can of energy drink on desk -->
+  <rect x="410" y="240" width="28" height="52" rx="4" fill="#000000" stroke="#B7FF67" stroke-width="2"/>
+  <text x="424" y="270" font-family="monospace" font-size="10" font-weight="900" fill="#B7FF67" text-anchor="middle" transform="rotate(-90 424 270)">ENERGY</text>
+  <!-- Date stamp -->
+  <text x="350" y="480" font-family="monospace" font-size="15" font-weight="900" fill="#FF9900">
+    '07 03 29
+  </text>
+</svg>

@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160" width="160" height="160">
+  <rect width="160" height="160" fill="#2E0A40"/>
+  <circle cx="80" cy="80" r="45" fill="none" stroke="#A46BFF" stroke-width="2" stroke-dasharray="4,3"/>
+  <!-- Cyber Alice anime face -->
+  <path d="M45,160 C45,125 70,115 80,115 C90,115 115,125 115,160 Z" fill="#14111E"/>
+  <circle cx="80" cy="75" r="26" fill="#FFF0F5"/>
+  <!-- Lavender twin tails -->
+  <path d="M50,60 C40,40 120,40 110,60 C130,85 135,130 135,145 C120,120 115,90 110,75 C95,60 65,60 50,75 C45,90 40,120 25,145 C25,130 30,85 50,60 Z" fill="#A46BFF"/>
+  <circle cx="72" cy="74" r="3" fill="#FF3DAE"/>
+  <circle cx="88" cy="74" r="3" fill="#FF3DAE"/>
+  <rect x="1" y="1" width="158" height="158" fill="none" stroke="#A46BFF" stroke-width="2"/>
+</svg>

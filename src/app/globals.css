@@ -1,0 +1,172 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --bg-main: #111016;
+    --bg-secondary: #1B1722;
+    --text-primary: #EDE9F2;
+    --text-secondary: #A9A0B5;
+    --hot-pink: #FF3DAE;
+    --electric-purple: #A46BFF;
+    --cyber-blue: #62E9FF;
+    --acid-green: #B7FF67;
+  }
+
+  body {
+    background-color: var(--bg-main);
+    color: var(--text-primary);
+    overflow-x: hidden;
+    font-family: var(--font-sans), system-ui, -apple-system, sans-serif;
+  }
+}
+
+/* Custom Scrollbar - Authentic Y2K Neon/Cyber */
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #111016;
+  border-left: 1px solid #2B2438;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #2D253A;
+  border: 1px solid #FF3DAE;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #FF3DAE;
+  box-shadow: 0 0 8px #FF3DAE;
+}
+
+/* Retro Window Bevels & Frames */
+.retro-window {
+  background: #1B1722;
+  border: 2px solid #2F293A;
+  box-shadow: 
+    inset 1px 1px 0px rgba(255, 255, 255, 0.15),
+    inset -1px -1px 0px rgba(0, 0, 0, 0.8),
+    0 4px 20px rgba(0, 0, 0, 0.6);
+}
+
+.retro-window-header {
+  background: linear-gradient(90deg, #FF3DAE 0%, #A46BFF 50%, #62E9FF 100%);
+  color: #111016;
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.4);
+}
+
+.retro-window-header-alt {
+  background: linear-gradient(90deg, #2D1B3E 0%, #442460 50%, #2D1B3E 100%);
+  border-bottom: 1px solid #A46BFF;
+}
+
+/* Winamp brushed titanium panel */
+.winamp-panel {
+  background: linear-gradient(180deg, #292433 0%, #17131E 100%);
+  border: 2px solid #3E354D;
+  box-shadow: 
+    inset 1px 1px 0px #5B4F70,
+    inset -1px -1px 0px #09070D,
+    0 8px 30px rgba(0, 0, 0, 0.8);
+}
+
+/* Pixel Border Utility */
+.pixel-border {
+  box-shadow: 
+    0 -2px 0 0 #FF3DAE,
+    0 2px 0 0 #FF3DAE,
+    -2px 0 0 0 #FF3DAE,
+    2px 0 0 0 #FF3DAE;
+}
+
+.pixel-border-blue {
+  box-shadow: 
+    0 -2px 0 0 #62E9FF,
+    0 2px 0 0 #62E9FF,
+    -2px 0 0 0 #62E9FF,
+    2px 0 0 0 #62E9FF;
+}
+
+.pixel-border-green {
+  box-shadow: 
+    0 -2px 0 0 #B7FF67,
+    0 2px 0 0 #B7FF67,
+    -2px 0 0 0 #B7FF67,
+    2px 0 0 0 #B7FF67;
+}
+
+/* Dither & Cyber Grid Backgrounds */
+.bg-cyber-grid {
+  background-image: 
+    linear-gradient(to right, rgba(164, 107, 255, 0.08) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(164, 107, 255, 0.08) 1px, transparent 1px);
+  background-size: 24px 24px;
+}
+
+.bg-dot-matrix {
+  background-image: radial-gradient(rgba(98, 233, 255, 0.15) 1px, transparent 0);
+  background-size: 16px 16px;
+}
+
+/* Subtle CRT Scanlines Effect */
+.crt-overlay {
+  background: linear-gradient(
+    rgba(18, 16, 22, 0) 50%, 
+    rgba(0, 0, 0, 0.25) 50%
+  );
+  background-size: 100% 4px;
+}
+
+/* Marquee Animations */
+@keyframes marquee-scroll {
+  0% { transform: translateX(0%); }
+  100% { transform: translateX(-50%); }
+}
+
+.animate-marquee {
+  display: inline-flex;
+  white-space: nowrap;
+  animation: marquee-scroll 25s linear infinite;
+}
+
+.animate-marquee:hover {
+  animation-play-state: paused;
+}
+
+/* Glitch Text Keyframe */
+@keyframes text-glitch {
+  0% { text-shadow: 1px 0 #FF3DAE, -1px 0 #62E9FF; }
+  25% { text-shadow: -2px 0 #FF3DAE, 2px 0 #62E9FF; }
+  50% { text-shadow: 1px 0 #B7FF67, -1px 0 #FF3DAE; }
+  75% { text-shadow: -1px 0 #62E9FF, 1px 0 #B7FF67; }
+  100% { text-shadow: 1px 0 #FF3DAE, -1px 0 #62E9FF; }
+}
+
+.hover-glitch:hover {
+  animation: text-glitch 0.25s infinite;
+}
+
+/* Blink Animation for retro status */
+@keyframes blink-y2k {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.2; }
+}
+
+.animate-blink {
+  animation: blink-y2k 1.2s infinite ease-in-out;
+}
+
+/* Retro Link Hover */
+.retro-link {
+  color: #62E9FF;
+  text-decoration: underline;
+  text-decoration-style: dotted;
+  transition: all 0.15s ease;
+}
+
+.retro-link:hover {
+  color: #FF3DAE;
+  text-shadow: 0 0 6px #FF3DAE;
+}

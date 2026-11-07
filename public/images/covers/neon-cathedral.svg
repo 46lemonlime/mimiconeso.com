@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" width="500" height="500">
+  <defs>
+    <linearGradient id="neonCathGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#190A2E"/>
+      <stop offset="50%" stop-color="#46156B"/>
+      <stop offset="100%" stop-color="#0F0C16"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="500" height="500" fill="url(#neonCathGrad)"/>
+
+  <!-- Cathedral Gothic Cyber Spire -->
+  <polygon points="250,50 300,320 200,320" fill="none" stroke="#A46BFF" stroke-width="3"/>
+  <polygon points="250,90 285,320 215,320" fill="none" stroke="#FF3DAE" stroke-width="2"/>
+  <circle cx="250" cy="180" r="50" fill="none" stroke="#62E9FF" stroke-width="2" stroke-dasharray="5,3"/>
+  <circle cx="250" cy="180" r="25" fill="#FF3DAE" opacity="0.4"/>
+  <line x1="250" y1="20" x2="250" y2="350" stroke="#B7FF67" stroke-width="1.5"/>
+
+  <!-- Columns -->
+  <line x1="120" y1="180" x2="120" y2="370" stroke="#A46BFF" stroke-width="4"/>
+  <line x1="380" y1="180" x2="380" y2="370" stroke="#A46BFF" stroke-width="4"/>
+  <line x1="70" y1="230" x2="70" y2="370" stroke="#FF3DAE" stroke-width="2"/>
+  <line x1="430" y1="230" x2="430" y2="370" stroke="#FF3DAE" stroke-width="2"/>
+
+  <text x="250" y="405" font-family="monospace" font-size="28" font-weight="900" fill="#EDE9F2" text-anchor="middle" letter-spacing="4">
+    NEON CATHEDRAL
+  </text>
+  <text x="250" y="435" font-family="monospace" font-size="16" font-weight="bold" fill="#FF3DAE" text-anchor="middle" letter-spacing="3">
+    M1M1 CONESO • FULL LP (2005)
+  </text>
+  <text x="250" y="460" font-family="monospace" font-size="11" fill="#A9A0B5" text-anchor="middle">
+    CYBER-SPIRITUAL TRANCE & AMBIENT
+  </text>
+
+  <rect x="4" y="4" width="492" height="492" fill="none" stroke="#A46BFF" stroke-width="3"/>
+</svg>

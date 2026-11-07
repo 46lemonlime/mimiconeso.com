@@ -1,0 +1,94 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" width="500" height="500">
+  <defs>
+    <linearGradient id="bgHeart" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0E0814"/>
+      <stop offset="40%" stop-color="#2E0A40"/>
+      <stop offset="70%" stop-color="#FF3DAE"/>
+      <stop offset="100%" stop-color="#1B1722"/>
+    </linearGradient>
+    <radialGradient id="glitchGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#62E9FF" stop-opacity="0.8"/>
+      <stop offset="60%" stop-color="#A46BFF" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#FF3DAE" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="dotMat" width="6" height="6" patternUnits="userSpaceOnUse">
+      <circle cx="3" cy="3" r="1.2" fill="#62E9FF" opacity="0.3"/>
+    </pattern>
+    <filter id="neonShadow">
+      <feDropShadow dx="0" dy="0" stdDeviation="6" flood-color="#FF3DAE"/>
+    </filter>
+  </defs>
+
+  <rect width="500" height="500" fill="url(#bgHeart)"/>
+  <rect width="500" height="500" fill="url(#dotMat)"/>
+
+  <!-- CD Jewel Case reflection streak -->
+  <polygon points="0,0 200,0 0,500" fill="#FFFFFF" opacity="0.04"/>
+  <polygon points="120,0 260,0 0,380" fill="#FFFFFF" opacity="0.02"/>
+
+  <!-- Glowing Wireframe Orb -->
+  <circle cx="250" cy="220" r="150" fill="url(#glitchGlow)" opacity="0.5"/>
+  <ellipse cx="250" cy="220" rx="140" ry="40" fill="none" stroke="#62E9FF" stroke-width="2" stroke-dasharray="6,4"/>
+  <ellipse cx="250" cy="220" rx="140" ry="80" fill="none" stroke="#A46BFF" stroke-width="1.5" stroke-dasharray="10,6"/>
+  <ellipse cx="250" cy="220" rx="40" ry="140" fill="none" stroke="#B7FF67" stroke-width="1.5" stroke-dasharray="4,4"/>
+
+  <!-- Cyber Heart with Barbed Wire / Circuits -->
+  <path d="M250,150 C210,80 120,100 120,180 C120,240 200,290 250,330 C300,290 380,240 380,180 C380,100 290,80 250,150 Z" 
+        fill="#181124" stroke="#FF3DAE" stroke-width="6" filter="url(#neonShadow)"/>
+  <!-- Circuit lines inside heart -->
+  <path d="M190,170 L230,170 L250,210 L280,210 L300,180 L320,180" fill="none" stroke="#62E9FF" stroke-width="3"/>
+  <circle cx="190" cy="170" r="4" fill="#B7FF67"/>
+  <circle cx="250" cy="210" r="5" fill="#FF3DAE"/>
+  <circle cx="320" cy="180" r="4" fill="#B7FF67"/>
+  <path d="M220,240 L250,270 L280,240" fill="none" stroke="#A46BFF" stroke-width="3"/>
+
+  <!-- Cyber angel wings behind heart -->
+  <path d="M120,180 Q40,110 50,230 Q90,240 130,220" fill="none" stroke="#62E9FF" stroke-width="3"/>
+  <path d="M380,180 Q460,110 450,230 Q410,240 370,220" fill="none" stroke="#62E9FF" stroke-width="3"/>
+
+  <!-- Top Badges / Parental Advisory style -->
+  <rect x="25" y="25" width="120" height="35" fill="#000000" stroke="#FFFFFF" stroke-width="1.5"/>
+  <text x="35" y="48" font-family="monospace" font-size="11" font-weight="900" fill="#FFFFFF" letter-spacing="1">
+    Y2K DIGITAL
+  </text>
+  <rect x="350" y="25" width="125" height="26" fill="#FF3DAE"/>
+  <text x="360" y="42" font-family="monospace" font-size="11" font-weight="900" fill="#000000">
+    CAT: MIMI-004
+  </text>
+
+  <!-- Typography / Album Title -->
+  <text x="250" y="380" font-family="Impact, sans-serif" font-size="34" font-weight="900" fill="#FFFFFF" text-anchor="middle" letter-spacing="2">
+    CYBERNETIC HEARTBREAK
+  </text>
+  <text x="250" y="410" font-family="monospace" font-size="16" font-weight="bold" fill="#62E9FF" text-anchor="middle" letter-spacing="4">
+    ★ M1M1 CONESO ★
+  </text>
+  <text x="250" y="435" font-family="monospace" font-size="12" fill="#B7FF67" text-anchor="middle">
+    [ 180BPM DIGITALCORE / 2007 STEREO MASTER ]
+  </text>
+
+  <!-- Barcode at bottom right -->
+  <g fill="#FFFFFF" transform="translate(360, 445)">
+    <rect x="0" y="0" width="3" height="35"/>
+    <rect x="5" y="0" width="2" height="35"/>
+    <rect x="9" y="0" width="4" height="35"/>
+    <rect x="16" y="0" width="1" height="35"/>
+    <rect x="20" y="0" width="5" height="35"/>
+    <rect x="28" y="0" width="2" height="35"/>
+    <rect x="33" y="0" width="4" height="35"/>
+    <rect x="40" y="0" width="2" height="35"/>
+    <rect x="45" y="0" width="5" height="35"/>
+    <rect x="53" y="0" width="1" height="35"/>
+    <rect x="57" y="0" width="4" height="35"/>
+    <rect x="64" y="0" width="2" height="35"/>
+    <rect x="69" y="0" width="5" height="35"/>
+    <rect x="77" y="0" width="3" height="35"/>
+    <rect x="83" y="0" width="2" height="35"/>
+    <rect x="88" y="0" width="6" height="35"/>
+  </g>
+  <text x="360" y="492" font-family="monospace" font-size="9" fill="#A9A0B5">0 94821 70402 8</text>
+
+  <!-- Jewel Case Border Overlay -->
+  <rect x="4" y="4" width="492" height="492" fill="none" stroke="#FF3DAE" stroke-width="4"/>
+  <rect x="12" y="12" width="476" height="476" fill="none" stroke="#62E9FF" stroke-width="1" stroke-dasharray="8,6"/>
+</svg>

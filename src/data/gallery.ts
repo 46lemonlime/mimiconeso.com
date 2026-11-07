@@ -1,0 +1,58 @@
+import { GalleryItem } from '@/types';
+
+export const GALLERY_DATA: GalleryItem[] = [
+  {
+    id: 'gal-01',
+    title: 'cyber_shibuya_night.jpg',
+    category: 'Photography',
+    date: '2007-04-12',
+    caption: 'Shot on Sony Cyber-shot DSC-T10, 7.2 megapixels. Rainy crossroad in Neo-Shibuya.',
+    imageUrl: '/images/gallery/shibuya.svg',
+    aspectRatio: 'wide',
+  },
+  {
+    id: 'gal-02',
+    title: 'studio_chaos_bedroom.png',
+    category: 'Photography',
+    date: '2007-03-29',
+    caption: 'The bedroom battle station: Roland JP-8000, 17-inch CRT monitor glowing neon pink.',
+    imageUrl: '/images/gallery/studio.svg',
+    aspectRatio: 'square',
+  },
+  {
+    id: 'gal-03',
+    title: 'dialup_angel_pv_still.png',
+    category: 'Video Still',
+    date: '2007-05-18',
+    caption: 'Official music video frame at 01:42. Handheld miniDV tape footage with CRT scanlines.',
+    imageUrl: '/images/gallery/videostill.svg',
+    aspectRatio: 'wide',
+  },
+  {
+    id: 'gal-04',
+    title: 'flyer_underground_rave.png',
+    category: 'Graphic',
+    date: '2006-11-04',
+    caption: 'Original printed flyer design for Secret Basement Party #03 distributed in Akihabara.',
+    imageUrl: '/images/gallery/flyer.svg',
+    aspectRatio: 'tall',
+  },
+  {
+    id: 'gal-05',
+    title: 'mimi_live_berlin_vault.jpg',
+    category: 'Photography',
+    date: '2007-02-14',
+    caption: 'Live performance at Vault 99. The crowd going wild during the breakcore switch.',
+    imageUrl: '/images/gallery/live.svg',
+    aspectRatio: 'square',
+  },
+  {
+    id: 'gal-06',
+    title: 'holographic_sticker_render.png',
+    category: 'Artwork',
+    date: '2007-06-01',
+    caption: 'Custom holographic glitter sticker merchandise design with cyber wings.',
+    imageUrl: '/images/gallery/sticker.svg',
+    aspectRatio: 'square',
+  },
+];

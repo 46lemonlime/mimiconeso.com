@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160" width="160" height="160">
+  <rect width="160" height="160" fill="#14111E"/>
+  <!-- Cyber boy with neon green hair and visor -->
+  <path d="M40,160 C40,120 70,110 80,110 C90,110 120,120 120,160 Z" fill="#251F33"/>
+  <circle cx="80" cy="75" r="30" fill="#FCE0D4"/>
+  <!-- Spiky neon green hair -->
+  <polygon points="50,60 60,30 70,55 80,25 90,55 105,30 110,60" fill="#B7FF67"/>
+  <!-- Cyber Visor -->
+  <rect x="60" y="70" width="40" height="12" rx="3" fill="#62E9FF"/>
+  <line x1="62" y1="76" x2="98" y2="76" stroke="#FFFFFF" stroke-width="1.5"/>
+  <rect x="1" y="1" width="158" height="158" fill="none" stroke="#B7FF67" stroke-width="2"/>
+</svg>

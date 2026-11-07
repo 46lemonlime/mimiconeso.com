@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" width="600" height="400">
+  <!-- Shibuya rainy night in neon cyber hues -->
+  <defs>
+    <linearGradient id="shibGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0E071A"/>
+      <stop offset="60%" stop-color="#2D1145"/>
+      <stop offset="100%" stop-color="#0B0912"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="400" fill="url(#shibGrad)"/>
+  <!-- Cyber neon billboards -->
+  <rect x="40" y="40" width="120" height="180" fill="#FF3DAE" opacity="0.3"/>
+  <rect x="50" y="50" width="100" height="70" fill="#62E9FF" opacity="0.8"/>
+  <rect x="50" y="130" width="100" height="80" fill="#FF3DAE"/>
+  <text x="100" y="175" font-family="monospace" font-size="20" font-weight="900" fill="#FFFFFF" text-anchor="middle">109</text>
+
+  <rect x="180" y="70" width="80" height="150" fill="#1F132E" stroke="#A46BFF" stroke-width="2"/>
+  <rect x="280" y="30" width="140" height="200" fill="#0E2130" stroke="#62E9FF" stroke-width="2"/>
+  <text x="350" y="90" font-family="sans-serif" font-size="24" font-weight="bold" fill="#B7FF67" text-anchor="middle">TSUTAYA</text>
+  <text x="350" y="130" font-family="sans-serif" font-size="18" fill="#FFFFFF" text-anchor="middle">MUSIC CD</text>
+
+  <!-- Wet asphalt street reflections -->
+  <rect x="0" y="240" width="600" height="160" fill="#0A0810"/>
+  <!-- Rain streaks -->
+  <g stroke="#62E9FF" stroke-width="1" opacity="0.4">
+    <line x1="100" y1="20" x2="80" y2="80"/>
+    <line x1="220" y1="50" x2="200" y2="110"/>
+    <line x1="380" y1="10" x2="360" y2="70"/>
+    <line x1="500" y1="40" x2="480" y2="100"/>
+    <line x1="150" y1="150" x2="130" y2="210"/>
+    <line x1="420" y1="180" x2="400" y2="240"/>
+  </g>
+  <!-- Neon wet reflections -->
+  <ellipse cx="100" cy="310" rx="70" ry="15" fill="#FF3DAE" opacity="0.35"/>
+  <ellipse cx="350" cy="330" rx="90" ry="18" fill="#62E9FF" opacity="0.3"/>
+  <ellipse cx="480" cy="300" rx="50" ry="12" fill="#B7FF67" opacity="0.25"/>
+
+  <!-- Pedestrian with transparent umbrella and headphones silhouette -->
+  <path d="M230,220 Q280,180 330,220 Z" fill="none" stroke="#62E9FF" stroke-width="3"/>
+  <circle cx="280" cy="240" r="14" fill="#EDE9F2"/>
+  <path d="M260,330 L275,255 L285,255 L300,330 Z" fill="#FF3DAE"/>
+
+  <!-- Cyber-shot digital camera OSD overlay -->
+  <text x="30" y="35" font-family="monospace" font-size="14" fill="#FFFFFF" font-weight="bold">DSC-T10 [FINE]</text>
+  <text x="510" y="35" font-family="monospace" font-size="14" fill="#B7FF67" font-weight="bold">[BATTERY ■■■]</text>
+  <!-- Yellow focus box -->
+  <rect x="250" y="210" width="60" height="60" fill="none" stroke="#FFD700" stroke-width="1.5" stroke-dasharray="8,6"/>
+  <!-- Date stamp -->
+  <text x="420" y="380" font-family="monospace" font-size="16" font-weight="900" fill="#FF9900" letter-spacing="2">
+    '07 04 12
+  </text>
+</svg>

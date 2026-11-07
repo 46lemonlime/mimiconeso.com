@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" width="500" height="500">
+  <defs>
+    <linearGradient id="holo" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FF3DAE"/>
+      <stop offset="25%" stop-color="#62E9FF"/>
+      <stop offset="50%" stop-color="#B7FF67"/>
+      <stop offset="75%" stop-color="#A46BFF"/>
+      <stop offset="100%" stop-color="#FF3DAE"/>
+    </linearGradient>
+  </defs>
+  <rect width="500" height="500" fill="#14111E"/>
+  <!-- Holographic Die-cut sticker -->
+  <g transform="translate(40, 40) rotate(-4 210 210)">
+    <!-- White sticker border / peel line -->
+    <path d="M210,50 L270,140 L370,160 L300,240 L320,340 L210,290 L100,340 L120,240 L50,160 L150,140 Z" 
+          fill="#FFFFFF" stroke="#DCDCDC" stroke-width="12" stroke-linejoin="round"/>
+    <!-- Holographic inner star -->
+    <path d="M210,50 L270,140 L370,160 L300,240 L320,340 L210,290 L100,340 L120,240 L50,160 L150,140 Z" 
+          fill="url(#holo)"/>
+    <circle cx="210" cy="210" r="70" fill="#14111E"/>
+    <text x="210" y="205" font-family="monospace" font-size="22" font-weight="900" fill="#FFFFFF" text-anchor="middle">
+      M1M1
+    </text>
+    <text x="210" y="230" font-family="monospace" font-size="14" font-weight="bold" fill="#62E9FF" text-anchor="middle">
+      ★ CYBER ★
+    </text>
+  </g>
+  <text x="250" y="460" font-family="monospace" font-size="13" fill="#A9A0B5" text-anchor="middle">
+    [ MERCH PREVIEW: HOLOGRAPHIC FOIL STICKER 2007 ]
+  </text>
+</svg>

@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160" width="160" height="160">
+  <rect width="160" height="160" fill="#08070B"/>
+  <path d="M40,160 C40,120 70,110 80,110 C90,110 120,120 120,160 Z" fill="#1B1722"/>
+  <circle cx="80" cy="75" r="28" fill="#EDE9F2"/>
+  <!-- Black bat wings hairstyle -->
+  <polygon points="40,50 60,30 65,55 80,35 95,55 100,30 120,50 115,95 45,95" fill="#1F1A2B"/>
+  <!-- Heavy eyeliner & cross necklace -->
+  <polygon points="68,75 75,70 75,78" fill="#FF3DAE"/>
+  <polygon points="92,75 85,70 85,78" fill="#FF3DAE"/>
+  <line x1="80" y1="125" x2="80" y2="145" stroke="#EDE9F2" stroke-width="2"/>
+  <line x1="74" y1="133" x2="86" y2="133" stroke="#EDE9F2" stroke-width="2"/>
+  <rect x="1" y="1" width="158" height="158" fill="none" stroke="#A46BFF" stroke-width="2"/>
+</svg>

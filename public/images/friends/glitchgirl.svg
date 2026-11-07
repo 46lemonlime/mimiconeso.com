@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160" width="160" height="160">
+  <rect width="160" height="160" fill="#FF3DAE"/>
+  <rect x="0" y="30" width="160" height="10" fill="#62E9FF"/>
+  <rect x="0" y="110" width="160" height="8" fill="#B7FF67"/>
+  <!-- Glitch girl with side bangs and emo hair -->
+  <path d="M40,160 C40,120 70,110 80,110 C90,110 120,120 120,160 Z" fill="#1B1722"/>
+  <circle cx="80" cy="75" r="28" fill="#FCE8E6"/>
+  <!-- Heavy black side swoop hair -->
+  <path d="M50,70 C50,30 115,35 110,70 C90,45 65,70 50,110 Z" fill="#000000"/>
+  <circle cx="88" cy="74" r="3" fill="#62E9FF"/>
+  <path d="M85,85 Q88,90 92,85" stroke="#FF3DAE" stroke-width="2" fill="none"/>
+  <text x="80" y="150" font-family="monospace" font-size="11" font-weight="bold" fill="#B7FF67" text-anchor="middle">180 BPM</text>
+  <rect x="1" y="1" width="158" height="158" fill="none" stroke="#FFFFFF" stroke-width="2"/>
+</svg>

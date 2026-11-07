@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" width="600" height="400">
+  <!-- MiniDV Video Still with interlaced scanlines -->
+  <defs>
+    <pattern id="camScan" width="100" height="4" patternUnits="userSpaceOnUse">
+      <line x1="0" y1="0" x2="100" y2="0" stroke="#000" stroke-width="2" opacity="0.4"/>
+    </pattern>
+  </defs>
+  <rect width="600" height="400" fill="#0C0A14"/>
+  <!-- Cyber wings in silhouette -->
+  <circle cx="300" cy="200" r="140" fill="#2E0A40" opacity="0.7"/>
+  <path d="M300,120 Q120,40 100,240 Q220,250 300,220" fill="#FF3DAE" opacity="0.8"/>
+  <path d="M300,120 Q480,40 500,240 Q380,250 300,220" fill="#FF3DAE" opacity="0.8"/>
+  <!-- Mimi silhouette posing with microphone -->
+  <circle cx="300" cy="180" r="35" fill="#14111E"/>
+  <path d="M260,380 C260,260 280,220 300,220 C320,220 340,260 340,380 Z" fill="#14111E"/>
+  <!-- Glowing headphones -->
+  <rect x="255" y="165" width="15" height="30" rx="5" fill="#62E9FF"/>
+  <rect x="330" y="165" width="15" height="30" rx="5" fill="#62E9FF"/>
+
+  <!-- MiniDV OSD info -->
+  <rect x="30" y="25" width="12" height="12" rx="6" fill="#FF0000"/>
+  <text x="50" y="36" font-family="monospace" font-size="14" font-weight="900" fill="#FFFFFF">REC [SP]</text>
+  <text x="440" y="36" font-family="monospace" font-size="14" font-weight="bold" fill="#B7FF67">TC 01:42:08:14</text>
+  <text x="30" y="375" font-family="monospace" font-size="14" font-weight="bold" fill="#FFFFFF">miniDV 12-BIT 32k</text>
+
+  <!-- Scanlines -->
+  <rect width="600" height="400" fill="url(#camScan)" pointer-events="none"/>
+</svg>

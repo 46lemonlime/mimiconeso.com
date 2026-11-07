@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" width="500" height="500">
+  <defs>
+    <linearGradient id="dialupGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#091819"/>
+      <stop offset="50%" stop-color="#0E2E31"/>
+      <stop offset="100%" stop-color="#14111E"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="500" height="500" fill="url(#dialupGrad)"/>
+
+  <!-- Waveform representation of 56k dialup handshake -->
+  <path d="M40,250 L80,250 L100,180 L120,320 L140,200 L160,280 L180,240 L220,250 L230,120 L240,380 L250,100 L260,390 L270,140 L280,310 L310,250 L340,220 L360,270 L390,250 L460,250" 
+        fill="none" stroke="#62E9FF" stroke-width="4"/>
+  <path d="M40,250 L80,250 L100,190 L120,310 L140,210 L160,270 L180,245 L220,250 L230,140 L240,360 L250,120 L260,370 L270,160 L280,290 L310,250 L340,230 L360,260 L390,250 L460,250" 
+        fill="none" stroke="#B7FF67" stroke-width="1.5" opacity="0.7"/>
+
+  <!-- Digital angel wings -->
+  <g stroke="#FF3DAE" stroke-width="2" fill="none">
+    <path d="M250,100 Q150,20 100,140 Q160,150 240,130"/>
+    <path d="M250,100 Q350,20 400,140 Q340,150 260,130"/>
+  </g>
+
+  <!-- 56k Modem Baud rate indicator -->
+  <rect x="30" y="30" width="160" height="30" fill="#000000" stroke="#62E9FF" stroke-width="1.5"/>
+  <text x="40" y="50" font-family="monospace" font-size="12" font-weight="bold" fill="#B7FF67">
+    CONNECT 56000/V.90
+  </text>
+
+  <text x="250" y="380" font-family="monospace" font-size="30" font-weight="900" fill="#62E9FF" text-anchor="middle" letter-spacing="3">
+    DIALUP ANGEL
+  </text>
+  <text x="250" y="415" font-family="monospace" font-size="16" font-weight="bold" fill="#EDE9F2" text-anchor="middle" letter-spacing="2">
+    M1M1 CONESO FT. XX_PIXELBOY
+  </text>
+  <text x="250" y="445" font-family="monospace" font-size="12" fill="#FF3DAE" text-anchor="middle">
+    [ MAXIMUM VELOCITY SINGLE 2007 ]
+  </text>
+
+  <rect x="4" y="4" width="492" height="492" fill="none" stroke="#62E9FF" stroke-width="3"/>
+</svg>

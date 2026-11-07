@@ -1,0 +1,88 @@
+import { Release } from '@/types';
+
+export const RELEASES_DATA: Release[] = [
+  {
+    id: 'rel-01',
+    title: 'CYBERNETIC HEARTBREAK',
+    type: 'EP',
+    year: 2007,
+    coverImage: '/images/covers/cybernetic-heartbreak.svg',
+    catalogNumber: 'MIMI-004',
+    description: 'A 5-track blitz of pitched vocal chops, supersonic arpeggios, and heartbreak encoded at 180kbps MP3.',
+    trackCount: 5,
+    tracks: [
+      '01. cybernetic_heartbreak_v2.mp3',
+      '02. dialup_angel.wav (ft. xx_pixelboy)',
+      '03. tamagotchi_funeral.mp3',
+      '04. subway_ghost_2004.ogg',
+      '05. starlight_screensaver (ambient edit)',
+    ],
+    streamingLinks: {
+      bandcamp: 'https://mimiconeso.bandcamp.com',
+      soundcloud: 'https://soundcloud.com/mimiconeso',
+      spotify: 'https://open.spotify.com/artist/placeholder',
+    },
+    cassetteAvailable: true,
+  },
+  {
+    id: 'rel-02',
+    title: 'PIXEL TEARS',
+    type: 'EP',
+    year: 2006,
+    coverImage: '/images/covers/pixel-tears.svg',
+    catalogNumber: 'MIMI-003',
+    description: 'Chiptune rave melodies combined with early glitchcore and lo-fi trance kicks recorded on a handheld minidisc.',
+    trackCount: 4,
+    tracks: [
+      '01. binary_sunset_prom.mp3',
+      '02. tamagotchi_funeral (demo 2006)',
+      '03. irc_channel_crush.wav',
+      '04. end_of_internet_theme.ogg',
+    ],
+    streamingLinks: {
+      bandcamp: 'https://mimiconeso.bandcamp.com',
+      soundcloud: 'https://soundcloud.com/mimiconeso',
+    },
+    cassetteAvailable: false,
+  },
+  {
+    id: 'rel-03',
+    title: 'NEON CATHEDRAL',
+    type: 'Album',
+    year: 2005,
+    coverImage: '/images/covers/neon-cathedral.svg',
+    catalogNumber: 'MIMI-002',
+    description: 'A sprawling 12-track concept record exploring cyber-spiritualism, neon high-rises, and dialup modems.',
+    trackCount: 12,
+    tracks: [
+      '01. boot_sequence_prayer',
+      '02. subway_ghost_2004',
+      '03. fiber_optic_sanctuary',
+      '04. starlight_screensaver',
+      '05. midnight_train_shibuya',
+      '06. virtual_reality_anthem',
+    ],
+    streamingLinks: {
+      bandcamp: 'https://mimiconeso.bandcamp.com',
+    },
+    cassetteAvailable: true,
+  },
+  {
+    id: 'rel-04',
+    title: 'DIALUP ANGEL [SINGLE]',
+    type: 'Single',
+    year: 2007,
+    coverImage: '/images/covers/dialup-angel.svg',
+    catalogNumber: 'MIMI-S01',
+    description: 'The viral cyber single that conquered underground forums and p2p trackers across the world.',
+    trackCount: 2,
+    tracks: [
+      '01. dialup_angel (radio edit)',
+      '02. dialup_angel (breakcore VIP club mix)',
+    ],
+    streamingLinks: {
+      soundcloud: 'https://soundcloud.com/mimiconeso',
+    },
+    cassetteAvailable: false,
+  },
+];
